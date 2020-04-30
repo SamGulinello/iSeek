@@ -3,7 +3,7 @@ version: 2
 publish: &publish
   working_directory: ~/my-app
   docker:
-    - image: circleci/node:14.4.0
+    - image: circleci/node:14.0.0
   steps:
     - checkout
 
